@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.avif">
+    <script src="https://kit.fontawesome.com/7ca8d68291.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="loader">
+        <div class="contenedor-loader">
+
+            <div class="zona-texto">
+                <h1 id="texto-animado"></h1><span class="cursor"></span>
+            </div>
+            <div class="barra-progreso-contenedor">
+                <div id="barra-progreso"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portafolio" style="display: none;">
+        <header class="navbar">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#principal" class="active"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="#acerca"><i class="fas fa-user"></i> Acerca</a></li>
+                    <li><a href="#projects"><i class="fas fa-folder"></i> Proyectos</a></li>
+                    <li><a href="#servicios"><i class="fas fa-pen-nib"></i> Servicios</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="principal" id="principal">
+            <div class="info-content">
+                <h1>Hola, soy Rubén</h1>
+                <p><span id="maquina-escribir"></span><span class="cursor-typing">|</span></p>
+                <p class="descripcion">
+                    Soy estudiante de Ingeneria de Sistemas, me apasiona el desarrollo web y la tecnología. En
+                    este portafolio encontrarás algunos de mis proyectos y habilidades en programación.
+                </p>
+
+                <div class="buttons">
+                    <button class="btn-contratar"><i class="fa-solid fa-arrow-right"></i> Contratar</button>
+                    <button class="btn-cv"><i class="fas fa-download"></i> Descargar CV</button>
+                </div>
+
+                <div class="social-icons">
+                    <p><small>SÍGUEME</small></p>
+                    <a href="https://github.com/XxWh1te"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/rubeneufraciozarate/?hl=es"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@iam_rbn?is_from_webapp=1&sender_device=pc"><i
+                            class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div class="perfil-container">
+                <img src="img/perfil 1.webp" alt="Perfil">
+            </div>
+        </section>
+
+        <section class="acerca" id="acerca">
+            <div class="acerca-contenedor">
+
+                <div class="acerca-img">
+                    <img src="img/perfil2.webp" alt="Perfil">
+                </div>
+
+                <div class="acerca-texto">
+                    <h1>Acerca de Mí</h1>
+                    <h2>Rubén Eufracio</h2>
+
+                    <p>
+                        Estudiante de Ingeniería de Sistemas en sus últimos ciclos en la Universidad de Tecnología del
+                        Perú.
+                        Apasionado por la programación, el desarrollo web y la tecnología en general.
+                    </p>
+
+                    <h3>Educación</h3>
+                    <p>Universidad Tecnológica del Perú (UTP)</p>
+                    <p>Actualmente cursando el ciclo 8</p>
+
+                    <h3>Experiencia</h3>
+                    <p>Practicante de Desarrollo Web</p>
+
+                    <h3>Habilidades</h3>
+                    <ul class="skills">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="proyectos" id="projects">
+            <div class="proyectos-contenedor">
+                <h2>Proyectos</h2>
+                <p>Algunos de mis proyectos más destacados</p>
+                <div class="proyectos-grid">
+                    <div class="project-card">
+                        <img src="img/comida.webp" alt="Proyecto 1">
+                        <h3>Pagina web de un Restaurante</h3>
+                        <p>Pagina web para un restaurante esta hecha con html, css y Javascript y de manera responsive
+                        </p>
+                    </div>
+                    <div class="project-card">
+                        <img src="img/juegos.webp" alt="Proyecto 2">
+                        <h3>Pagina web de una tienda de Juegos</h3>
+                        <p>Pagina web para una tienda de juegos esta hecha con html, css y Javascript y de manera
+                            responsive</p>
+                    </div>
+                    <div class="project-card">
+                        <img src="img/abarrotes.webp" alt="Proyecto 3">
+                        <h3>Pagina web de una tienda de Abarrotes</h3>
+                        <p>Pagina web para una tienda de abarrotes esta hecha con html, css y Javascript y de manera
+                            responsive</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="servicios" id="servicios">
+            <div class="servicios-contenedor">
+                <h2>Servicios</h2>
+                <p>Algunos de los servicios que ofrezco</p>
+                <div class="servicios-grid">
+                    <article class="servicios-card">
+                        <div class="icono">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Desarrollo Web</h3>
+                        <p>Creo sitios web modernos y funcionales utilizando las últimas tecnologías.</p>
+                    </article>
+
+                    <article class="servicios-card">
+                        <div class="icono">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Desarrollo Móvil</h3>
+                        <p>Creo aplicaciones móviles modernas y funcionales utilizando las últimas tecnologías.</p>
+                    </article>
+
+                    <article class="servicios-card">
+                        <div class="icono">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>Diseño Gráfico</h3>
+                        <p>Creo diseños gráficos atractivos y funcionales para diversas plataformas.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-container">
+
+                <div class="footer-brand">
+                    <h2>Portafolio</h2>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="#principal">Inicio</a></li>
+                        <li><a href="#acerca">Acerca de mí</a></li>
+                        <li><a href="#projects">Proyectos</a></li>
+                        <li><a href="#services">Servicios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Sígueme</h3>
+                    <div class="social-icons">
+                        <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                        <a href="#"> <i class="fab fa-instagram"></i></a>
+                        <a href="#"> <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Portafolio - Todos los derechos reservados</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
