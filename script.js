@@ -4,6 +4,15 @@ window.addEventListener('load', () => {
     const loader = document.getElementById('loader');
     const portafolio = document.getElementById('portafolio');
 
+    if (sessionStorage.getItem("sinLoader")) {
+        if (loader) loader.style.display = "none";
+        if (portafolio) portafolio.style.display = "block";
+
+        sessionStorage.removeItem("sinLoader");
+        animarTexto();
+        return; 
+    }
+
     const saludo = 'Bienvenido';
     let i = 0;
 

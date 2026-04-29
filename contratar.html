@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.avif">
+    <script src="https://kit.fontawesome.com/7ca8d68291.js" crossorigin="anonymous"></script>
+    <title>Mi Contrato</title>
+</head>
+
+<body>
+    <header class="container">
+        <a href="index.html" onclick="sessionStorage.setItem('sinLoader','true')" class="btn-atras">
+            <i class="fa-solid fa-arrow-left"></i>
+        </a>
+
+        <div class="logo">
+            <h1>Volver</h1>
+        </div>
+    </header>
+
+    <main class="contact">
+        <div class="image-perfil">
+            <img src="img/perfil2.webp" alt="Perfil">
+        </div>
+        <div class="contact-form">
+            <div class="form">
+                <h2>Contactame</h2>
+                <form>
+                    <label for="fname">Nombre</label>
+                    <input type="text" id="fname" name="fname" placeholder="Nombre" required>
+                    <label for="lname">Apellido</label>
+                    <input type="text" id="lname" name="lname" placeholder="Apellido" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <label for="phone">Teléfono</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Teléfono" required>
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" placeholder="Mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
